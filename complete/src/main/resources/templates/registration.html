@@ -8,9 +8,9 @@
 </head>
 <body>
 <form method="post" th:action="@{/registration}" th:object="${user}">
-    <input class="form-control" placeholder="E-mail" th:field="*{email}"
+    <input placeholder="E-mail" th:field="*{email}"
            type="text"/>
-    <input class="form-control" placeholder="Password" th:field="*{password}"
+    <input placeholder="Password" th:field="*{password}"
            type="password"/>
     <button type="submit">Register</button>
 </form>
