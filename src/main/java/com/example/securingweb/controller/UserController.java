@@ -1,4 +1,4 @@
-package com.example.securingweb;
+package com.example.securingweb.controller;
 
 import com.example.securingweb.model.User;
 import com.example.securingweb.service.UserService;
